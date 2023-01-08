@@ -35,7 +35,8 @@ int main ()
     for (int i = 0; i < SIZE; i++)
     {
         if(i==SIZE-1){
-            printf("%d",*(arr+i));
+            printf("%d\n",*(arr+i));
+           // printf("\n");
         }
         else{
             printf("%d,",*(arr+i));
