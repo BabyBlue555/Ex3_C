@@ -12,10 +12,10 @@ int main ()
     arr= (int*)malloc(SIZE*sizeof(int));
  //   int input=0;
 
-    printf("enter 50 integer numbers\n");
+   // printf("enter 50 integer numbers\n");
     for (int i = 0; i < SIZE; i++)
     {
-        printf("enter the %d number in the array", i); // delete it later, should not be printed
+     //   printf("enter the %d number in the array", i); // delete it later, should not be printed
         scanf("%d", &number); //returns 0 if didn't work, 1 if worked
         *(arr+i)=number;
         // "You entered %c.", chr
