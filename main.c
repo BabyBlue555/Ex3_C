@@ -40,6 +40,7 @@ int main ()
         else{
             printf("%d,",*(arr+i));
         }
+
     }
 
 
