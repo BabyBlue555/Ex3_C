@@ -1,0 +1,8 @@
+*.txt
+*.o
+.vscode/
+HW3_IO/
+isort
+txtfind
+
+
